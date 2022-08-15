@@ -1,3 +1,11 @@
+:root {
+  --x-color: #ff4400;
+  --o-color: #333333;
+  --shadow: #888;
+  --accent: #ffffff;
+  --active: #fdc2ad;
+}
+
 * {
   margin: 0;
   padding: 0;

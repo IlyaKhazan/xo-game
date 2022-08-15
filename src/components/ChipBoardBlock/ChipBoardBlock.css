@@ -1,0 +1,9 @@
+.chipBoardBlock {
+  margin-bottom: 2rem;
+}
+
+.chipBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,91 @@
+.chip {
+  position: relative;
+  background-color: var(--accent);
+  border: none;
+  border-radius: 10%;
+  box-shadow: 0px 0px 8px var(--shadow);
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.s1x::before,
+.s2x::before {
+  content: '';
+  position: absolute;
+  top: 36%;
+  left: 35%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 2rem;
+  background-color: var(--x-color);
+}
+.m1x::before,
+.m2x::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background-color: var(--x-color);
+}
+.l1x::before,
+.l2x::before {
+  content: '';
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 3rem;
+  background-color: var(--x-color);
+}
+.s1o::before,
+.s2o::before {
+  content: '';
+  position: absolute;
+  top: 36%;
+  left: 35%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 2rem;
+  background-color: var(--o-color);
+}
+.m1o::before,
+.m2o::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background-color: var(--o-color);
+}
+.l1o::before,
+.l2o::before {
+  content: '';
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 3rem;
+  background-color: var(--o-color);
+}
+
+.chip:hover {
+  box-shadow: 0px 0px 15px var(--shadow);
+  transition: 0.5s ease-in-out;
+}
+
+.active {
+  background-color: var(--active);
+}
